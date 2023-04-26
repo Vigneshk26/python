@@ -1,0 +1,15 @@
+9. Implement a program to merge two Arrays?
+
+
+def merge_arrays(arr1, arr2):
+    """
+    Merge two arrays into a single array and return it.
+    """
+    merged_array = arr1 + arr2
+    return merged_array
+
+# Example usage
+arr1 = [1, 2, 3]
+arr2 = [4, 5, 6]
+merged_array = merge_arrays(arr1, arr2)
+print(merged_array) # Output: [1, 2, 3, 4, 5, 6]
